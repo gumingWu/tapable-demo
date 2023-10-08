@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "scripts": {
+    "dev:1": "node 1.简易demo.js",
+    "dev:2": "node 2.synchook.js",
+    "dev:3": "node 3.syncbailhook.js",
+    "dev:4": "node 4.syncwaterfallhook.js",
+    "dev:5": "node 5.syncloophook.js",
+    "dev:6": "node 6.asyncserieshook.js",
+    "dev:7": "node 7.asyncparallelhook.js"
+  },
+  "dependencies": {
+    "tapable": "^2.2.1"
+  }
+}

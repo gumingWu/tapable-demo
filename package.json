@@ -1,0 +1,30 @@
+{
+  "name": "getting-started-using-a-configuration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "serve dist",
+    "build:1": "webpack --config ./1.webpack插件简述/webpack.config.js",
+    "dev:2-1": "cd 2.tapable简析 && npm run dev:1",
+    "dev:2-2": "cd 2.tapable简析 && npm run dev:2",
+    "dev:2-3": "cd 2.tapable简析 && npm run dev:3",
+    "dev:2-4": "cd 2.tapable简析 && npm run dev:4",
+    "dev:2-5": "cd 2.tapable简析 && npm run dev:5",
+    "dev:2-6": "cd 2.tapable简析 && npm run dev:6",
+    "dev:2-7": "cd 2.tapable简析 && npm run dev:7",
+    "dev:3-1": "cd 3.hookable && npm run dev:1",
+    "dev:3-2": "cd 3.hookable && npm run dev:2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "serve": "^12.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
