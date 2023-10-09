@@ -7,7 +7,8 @@
     "dev:4": "node 4.syncwaterfallhook.js",
     "dev:5": "node 5.syncloophook.js",
     "dev:6": "node 6.asyncserieshook.js",
-    "dev:7": "node 7.asyncparallelhook.js"
+    "dev:7": "node 7.asyncparallelhook.js",
+    "dev:8": "node 8.模拟webpack.js"
   },
   "dependencies": {
     "tapable": "^2.2.1"
