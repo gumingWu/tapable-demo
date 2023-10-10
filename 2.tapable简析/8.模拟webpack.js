@@ -28,7 +28,7 @@ function webpack(options = {}) {
     const { entry = '', plugins = [] } = options    // 获取参数
 
     const compiler = new Compiler() // 创建compiler
-    compiler.result = entry
+    compiler.result = entry // 存储入参，用于后续操作
 
     plugins.forEach(plugin => { // 遍历plugin并执行，如果plugin有调用hook，则这时候注册对应的事件
         plugin.apply(compiler)
